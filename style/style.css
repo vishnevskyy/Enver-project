@@ -250,7 +250,9 @@ display: grid;
     align-items: center;
 }
 /*-------------------------------------footer-page----------------------------------*/
-
+footer{
+    margin-top: 260px;
+}
 .contact-us{
     padding: 0 8vw;
     height: 506px;
