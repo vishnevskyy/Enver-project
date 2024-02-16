@@ -253,8 +253,10 @@ display: grid;
 }
 .fth-container{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 30vw 1fr;
     grid-template-rows: minmax(301px,auto);
+    align-items: center;
+    justify-items: center;
 }
 .fth-box{
     box-sizing: border-box;
@@ -271,6 +273,16 @@ display: grid;
 .fth-box>img{
     width: 23.3vw;
     min-width: 290px;
+}
+.one-box{
+    width: 15vw;height: 150px;
+}
+.two-box{
+    width: 30vw;height: auto;
+}
+.three-box{
+    width: 15vw;height: 150px;
+
 }
 /*-------------------------------------footer-page----------------------------------*/
 footer{
@@ -367,6 +379,8 @@ footer{
     filter:brightness(20%);
 }
 #two{
+    width: 48vw;
+    height: auto;
 }
 
 @-webkit-keyframes spinreverse {
