@@ -7,11 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-300-720.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/da3e77a8f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
@@ -101,9 +104,9 @@
     <section class="fourth-page">
         <div class="fth-header">Our Awesome Portofolio</div>
         <div class="fth-container">
-            <div class="fth-box"><img src="images/image%2029.png" alt="image"></div>
-            <div class="fth-box"><img src="images/image%2028.png" alt="image"></div>
-            <div class="fth-box"><img src="images/image%2030.png" alt="image"></div>
+            <div class="fth-box" onclick="onSeeTop()" style="width: 15vw;height: 150px"><img id="one" src="images/image%2029.png" alt="image"></div>
+            <div class="fth-box" style="width: 40vw;height: auto;"><img id="two" src="images/image%2028.png" alt="image" style="width: 38vw;height: auto;"></div>
+            <div class="fth-box" onclick="onSeeBot()" style="width: 15vw;height: 150px"><img id="three" src="images/image%2030.png" alt="image"></div>
         </div>
     </section>
 </main>
@@ -119,8 +122,16 @@
             <img src="images/logo.png" alt="logo">
             <h1>Enver</h1>
         </div>
+        <div class="footer-list">
+            <div class="footer-list-element">Support</div>
+            <div class="footer-list-element">Privacy Policy</div>
+            <div class="footer-list-element">Terms And Conditions</div>
+        </div>
         <div class="copyright">© 2024 Enver, All Rights Reserved</div>
     </div>
+    <button id="scrollToTop" class="" onclick="topFunc()"><i class="fa-solid fa-arrow-up"></i></button>
 </footer>
 </body>
+<script src="js/onClickMoveTop.js"></script>
+<script src="js/onSliderFunc.js"></script>
 </html>
