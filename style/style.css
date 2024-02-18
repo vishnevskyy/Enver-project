@@ -13,7 +13,7 @@ header,main{
 }
 /*-------------------------------------header----------------------------------*/
 header{
-    height: 107px;
+    height: 10vh;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 15vw;
@@ -25,7 +25,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: start;
-    height: 40px;
+    height: 4vh;
 }.logo>h1{
     margin-left: 1vw;
 
@@ -79,7 +79,7 @@ header{
 .contact-button{
     min-width: 140px;
     width: 10vw;
-    height: 44px;
+    height: 4vh;
     border-radius: 5px;
     border: 1px solid #FFF;
     backdrop-filter: blur(1px);
@@ -130,7 +130,7 @@ header{
     /*-------style-------*/
     border-radius: 4px;
     background: #5454D4;
-    height: 58px;
+    height: 5.5vw;
     width: 14vw;
     display: flex;
     justify-content: center;
@@ -148,10 +148,10 @@ header{
 }
 /*-------------------------------------second-page----------------------------------*/
 .second-page{
-    margin-top: 151px;
+    margin-top: 15vh;
     display: grid;
     gap: 50px;
-    height: 860px;
+    height: 88vh;
 }
 .sp-text-box{
     display: grid;
@@ -212,7 +212,7 @@ display: grid;
 }
 .tp-icon{
     width: 69px;
-    height: 69px;
+    height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,10 +239,10 @@ display: grid;
 }
 /*-------------------------------------fourth-page----------------------------------*/
 .fourth-page{
-    margin-top: 150px;
+    margin-top: 15vh;
     display: grid;
     align-content: space-between;
-    height: 532px;
+    height: 53.2vh;
 }
 .fth-header{
     color: #FFF;
@@ -262,7 +262,7 @@ display: grid;
     box-sizing: border-box;
     width: 26.6vw;
     min-width: 300px;
-    min-height: 230px;
+    min-height: 23vh;
     border-radius: 14px;
     border: 24px #1E1E20 solid;
     background: #1E1E20;
@@ -275,13 +275,13 @@ display: grid;
     min-width: 290px;
 }
 .one-box{
-    width: 15vw;height: 150px;
+    width: 15vw;height: 15vh;
 }
 .two-box{
     width: 30vw;height: auto;
 }
 .three-box{
-    width: 15vw;height: 150px;
+    width: 15vw;height: 15vh;
 
 }
 /*-------------------------------------footer-page----------------------------------*/
@@ -290,7 +290,7 @@ footer{
 }
 .contact-us{
     padding: 0 8vw;
-    height: 506px;
+    height: 50vh;
     background: rgba(30, 30, 32, 0.50);
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -318,7 +318,7 @@ footer{
     justify-content: center;
     align-items:center;
     width: 14vw;
-    height: 60px;
+    height: 6vh;
     border-radius: 5px;
     background: #5454D4;
 }
@@ -339,7 +339,7 @@ footer{
 }
 .footer-list{
     display: none;
-    height: 164px;
+    height: 16vh;
 }
 .footer-list-element{
     color: rgba(255, 255, 255, 0.70);
@@ -356,11 +356,11 @@ footer{
     border-radius: 20px;
     background: rgba(95,52,89,0.5);
     position: fixed;
-    bottom: 100px;
+    bottom: 10vh;
     left: 0;
 }
 #scrollToTop>i{
-    height: 50px;
+    height: 5vh;
     width: 50px;
     color: blueviolet;
     font-size: 50px;
