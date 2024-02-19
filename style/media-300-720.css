@@ -6,11 +6,9 @@
     .navigation {
         display: none;
     }
-
-    .connection {
+    .connection  {
         display: none;
     }
-
     /*-------------------*/
     .fp-container {
         display: block;
@@ -19,21 +17,21 @@
     .fp-header {
         line-height: 150%;
         font-size: 42px;
-        margin-bottom: 30px;
+        margin-bottom: 4.5vh;
         margin-top: 10vh;
     }
 
     .fp-text {
-        margin-bottom: 50px;
+        margin-bottom: 7.5vh;
         font-size: 16px;
         width: 100%;
         line-height: 150%; /* 24px */
     }
 
     .fp-button {
-        height: 44px;
+        height: 6.6vh;
         width: 42vw;
-        margin-bottom: 66px;
+        margin-bottom: 9.9vh;
     }
 
     .fp-img-box {
@@ -41,7 +39,7 @@
     }
 
     .fp-img-box > img {
-        height: 406px;
+        height: 60.9vh;
     }
     /*----------------------*/
 
@@ -57,11 +55,11 @@
     /*----------------------*/
     .second-page{
         gap: 0  ;
-        height: 420px;
+        height: 63vh;
     }
     .sp-text-box{
         grid-template-columns: 1fr;
-        height: 200px;
+        height: 30vh;
     }
     .sp-header{
         font-size: 36px;
@@ -93,7 +91,7 @@
     }
     /*-----------------------------*/
     .fourth-page{
-        height: 900px;
+        height: 135vh;
     }
     .fth-header{
         font-size: 36px;
@@ -102,8 +100,8 @@
         line-height: 150%; /* 54px */
     }
     .fth-container{
-        height: 850px;
-        margin-top: 50px;
+        height: 127.5vh;
+        margin-top: 7.5vh;
         width: 92vw;
         justify-self: center;
         grid-template-columns: auto;
@@ -139,15 +137,15 @@
         line-height: 150%; /* 54px */
     }
     .contact-us{
-        height: 416px;
+        height: 62.4vh;
     }
     .cu-button{
-        width: 44vw;
-        height: 44px;
+        width: 44.2vw;
+        height: 7.5vh;
     }
     .footer-panel{
-        height: 300px;
-        padding-top: 200px;
+        height: 40vh;
+        padding-top: 30vh;
         flex-direction: column;
     }
     .footer-list{
@@ -162,6 +160,21 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 155.556% */
+    }
+    #scrollToTop{
+        width: 13.4vw;
+        height: 7.5vh;
+        border-radius: 10px;
+        background: rgba(95,52,89,0.5);
+        position: fixed;
+        bottom: 10vh;
+        left: 1vw;
+    }
+    #scrollToTop>i{
+        height: 5vh;
+        width: 50px;
+        color: blueviolet;
+        font-size: 2em;
     }
 
 }
